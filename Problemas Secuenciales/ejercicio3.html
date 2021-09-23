@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio3</title>
+</head>
+<script>
+    /*
+    Un hospital desea saber cuanto es el presupuesto dado para cada área de atención, sabiendo que del presupuesto
+    general dan un 30% al área de Pediatría, 30% a ginecología y el 40% a odontología. Muestre como salida el presupuesto
+    general y el presupuesto de cada área.
+    Realizado por: Eliam Santos
+    */
+    var presupuesto_general = parseFloat(prompt("ingrese el presupuesto general")) 
+    var pediatria = 0.3*presupuesto_general
+    var ginecologia = 0.3*presupuesto_general
+    var odontologia = 0.4*presupuesto_general
+    alert(`Presupuesto general: ${presupuesto_general}`)
+    alert(`Presupuesto para pediatria : ${pediatria}`)
+    alert(`Presupuesto para ginecologia: ${ginecologia}`)
+    alert(`Presupuesto para odontologia: ${odontologia}`)
+</script>
+<body>
+    <h1>Cálculos realizados</h1>
+</body>
+</html>

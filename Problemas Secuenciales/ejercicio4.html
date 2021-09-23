@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio #4</title>
+</head>
+<script>
+    /*
+    Un vendedor tiene un sueldo base en una empresa y recibe comisiones por sus ventas. El vendedor el mes pasado 
+    realizó tres ventas, si por cada venta le dan el 15% de comisión de la venta realizada. Calcule la comisión.
+    Muestre el salario base, la comision por ventas y el salario final.
+    Realizado por: Eliam Santos
+    */
+    var sueldo_base = parseFloat(prompt("Ingrese el valor del sueldo base"))
+    var venta1 = parseFloat(prompt("Ingresa el valor de la venta 1"))
+    var venta2 = parseFloat(prompt("Ingresa el valor de la venta 2"))
+    var venta3 = parseFloat(prompt("Ingresa el valor de la venta 3"))
+    var comisionv1 = 0.15 * venta1
+    var comisionv2 = 0.15 * venta2
+    var comisionv3 = 0.15 * venta3
+    var comision = comisionv1 + comisionv2 + comisionv3
+    var salario_final = sueldo_base + comision
+    alert(`El salario base es de: ${sueldo_base}`)
+    alert(`Comision por ventas: ${comision}`)
+    alert(`El salario final es: ${salario_final} lempiras`)
+</script>
+<body>    
+</body>
+</html>
