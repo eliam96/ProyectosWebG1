@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condicionales 1</title>
+</head>
+<script>
+    /*
+        Una tienda ofrece el 30% de descuento si la compra es mayor a 2000 lps, sino solo se da el 5%.
+        Mostrar como salida el descuento y el total a pagar final.
+        Relizado por: Eliam Santos
+    */
+    var descuento
+    var totpagar
+    var compra = parseFloat(prompt("Ingresa el valor de la compra"))
+    if(compra>2000){
+        descuento = compra * 0.3
+        totpagar = compra - descuento
+    }else{
+        descuento = compra * 0.05
+        totpagar = compra - descuento
+    }
+    alert(`El descuento es: ${descuento}`)
+    alert(`El total a pagar es : ${totpagar}`)
+
+</script>
+<body>
+</body>
+</html>
